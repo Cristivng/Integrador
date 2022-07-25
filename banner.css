@@ -1,0 +1,51 @@
+#banner {
+    margin-top: 14vh;
+     
+} 
+
+.banner-img {
+    width: 100vw;
+    height: 35vh;
+}
+
+#banner .contenedor2 {
+    position: absolute;
+    width: 50%;
+    height: 20%;
+    top: 17%;
+    left: 50%;
+    transform: translateX(-50%), translateY(-50%);
+
+}
+
+#banner h2 {
+    font-size: 28px;
+}
+
+#banner a {
+    text-decoration: none;
+    color: black;
+}
+
+#banner button {
+    display: block;
+    width: 20vw;
+    height: 5vh;
+    color: black;
+    padding: 6px;
+    border: 3px solid black;
+    margin-top: 2vh;
+    border-radius: 35px;
+    padding-bottom: 1vh;
+    cursor: pointer;
+
+}
+
+#banner button:hover {
+    background: rgb(248, 254, 64 );
+    transform: scale(1.09);
+
+}
+
+
+
